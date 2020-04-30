@@ -5,6 +5,7 @@ class Controller
 
   def list
     puts "1. List posts"
+
   end
 
   def add
