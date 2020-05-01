@@ -2,15 +2,15 @@
   require "nokogiri"
 
   post_data = {}
-  path = "swlh/you-should-learn-to-code-7e8523a583dc"
-  full_path = "https://medium.com/#{path}"
+  path = "ben/im-ben-and-i-am-a-rails-developer-1j67"
+  full_path = "https://dev.to/#{path}"
   # Grab HTML
   html_content = open(full_path).read
   doc = Nokogiri::HTML(html_content)
 
-  # post_data[:path] = path
-  # post_data[:title] = doc.at_css('#e708').text.strip
-  # post_data[:title] = doc.at_css('.ei').text.strip
-  # post_data[:author] = doc.at_css('.es').child.text.strip
-  post = doc.at_css('.ks')
-  puts post
+  post_data[:path] = path
+  post_data[:title] = doc.at_css('.medium').text.strip
+  post_data[:author] = doc.at_css('.author').text.strip
+  post_data[:content] = doc.at_css('.body').text.strip
+  # post = doc.at_css('.body').text.strip
+  puts post_data
