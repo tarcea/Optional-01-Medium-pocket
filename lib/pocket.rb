@@ -13,6 +13,11 @@ class Pocket
     @posts
   end
 
+  def create(post)
+    @posts << post
+    csv_save
+  end
+
   def csv_load
     CSV.foreach(@csv_path) do |row|
       post_data = {
@@ -29,7 +34,7 @@ class Pocket
   def csv_save
     CSV.open(@csv_path, "wb") do |csv|
       @posts.each do |post_data|
-        CSV << [post_data.path,
+        csv << [post_data.path,
                 post_data.title,
                 post_data.author,
                 post_data.content,
@@ -37,5 +42,4 @@ class Pocket
       end
     end
   end
-
 end

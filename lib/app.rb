@@ -5,7 +5,7 @@ require_relative 'router'
 
 csv_file = File.join(__dir__, 'posts.csv')
 pocket = Pocket.new(csv_file)
-controller = Controller.new
+controller = Controller.new(pocket)
 
 router = Router.new(controller)
 
