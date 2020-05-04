@@ -1,7 +1,10 @@
 require 'pry'
+require_relative 'view'
+
 class Controller
   def initialize(pocket)
     @pocket = pocket
+    @view = View.new
   end
 
   def scraper(path)
@@ -16,7 +19,7 @@ class Controller
       doc = Nokogiri::HTML(html_content)
 
       post_data[:path] = path
-      post_data[:title] = doc.at_css('.medium').text.strip
+      post_data[:title] = doc.at_css('.title').first_element_child.text.strip
       post_data[:author] = doc.at_css('.author').text.strip
       post_data[:content] = doc.at_css('.body').text.strip
       # post = doc.at_css('.body').text.strip
@@ -25,6 +28,8 @@ class Controller
 
   def list
     puts "1. List posts"
+    # @pocket.csv_load
+    @view.show(@pocket.all)
   end
 
   def add

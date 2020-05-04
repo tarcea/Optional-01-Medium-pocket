@@ -1,19 +1,149 @@
-ben/im-ben-and-i-am-a-rails-developer-1j67,I’m Ben and I am a Rails developer,Ben Halpern,"There, I said it. Even though most of my professional experience is working in the Ruby on Rails environment, I rarely like to admit that. Not consciously, but sub-consciously I’m affected by the industry notion that Rails is a framework for n00bs and that Ruby can’t be used for anything serious. It hasn’t been my experience, but the Hacker News mindset on Rails eats at my insecurities.
+crazyjooe/boring-or-bold-33l,Boring or bold?,Artjoms H.,"I finished one book recently, that I believe is a pretty bad one. It’s a wonder how it’s possible to take such an exciting topic as videogames and turn it into an incredibly flat piece of a book filled with unneeded information and uninspiring stories of dull people making business instead of creators that are the main force behind any kind of progress and innovation.
 
-However, hanging out at Railsconf, where I'll be giving the talk How We Made Our App So Fast it Went Viral in Japan, I'm feeling very excited about this 15-year-old framework I use every day.
+Though I greatly disliked the book and don’t recommend anyone to spend time reading it, a few thoughts never left my brain while listening to it.
 
-I am a perfectly capable software developer who can code outside of Rails just fine. But Ruby on Rails is how I stay efficient. It’s what lets me translate what is going on in my brain and turn it into pixels before I lose my train of thought. Rails makes a lot of tradeoffs—They call this magic. It's the things the framework does without making it clear in the file what it is doing. But all technology makes tradeoffs, and Rails remains so lovely for those who use it well.
 
-I’m not a Rails absolutist or apologist—I like to acknowledge its many warts. Perhaps that’s why I don’t introduce myself as a Rails developer. I have always seen our Rails app, dev.to as an eventually not Rails app. Maybe not this year or next, but I feel like eventually it will be the dev.to codebase, a portion of which is based on Rails. But I don’t understand why more people don’t start projects with Rails regardless of their notions of what a perfect finished app looks like. It’s the ultimate starter project software and it can scale as far as you feel like scaling it. In startup land I feel like Silicon Valley moved past Rails because it was no longer fashionable—and lost a lot of productivity in doing so.
+  
+  
+  Boring people kill progress
 
-I recall a blog post about a new company that had some non-technical momentum which was completely derailed by taking a simple idea and writing it in Go microservices. I cannot remember where I found the post, but the story was telling. They scratched their work and took a week or two with Rails to make up for months of lost productivity overthinking the problem.
 
-Startups should be the ones embracing the fast productivity Rails offers and not rejecting it out of vague future concerns—or fashion.
+By boring I mean those people who like how stuff was back in the old days and are not able or are not willing to adapt to the new realities. By boring people I mean those who are not able to get excited from changes - is it a new piece of technology or new use of something old. By boring I mean people who want everything to be stable until they die - most probably because otherwise they will go insane.
 
-I got back to Rails in order to create dev.to because I was getting burnt on a complicated application and I needed to get back to an environment where I could wrap my head around the whole thing. What started as therapy turned into momentum because things were moving fast and the website fit the greater project’s needs in that small changes could be implemented in a timely fashion. But speed isn't about being sloppy, it's about working with an opinionated framework that seeks to have all the tools you need remain within grabbing distance when you need them. If you cannot get past the phase in a project where a few people need to be quick and productive early on, you won't have scaling problems, you'll have never-launched problems.
+This book has a fair amount of cases of such people. They didn’t believe that videogames could be something that the whole of humanity will be hooked on, or that there could be something more interesting than “television” or “just playing baseball”. Big boring business people that didn’t get even the concept of videogame and refused to fund those projects - “but wait, if the whole box is this small, where will you put the wires?”.
 
-And it’s not just small projects like mine that benefit from the Rails environment. Any large company is filled with small projects—or at least they should be. Rails remains the standard of productivity in most web development environments.
+As a software developer, I’m in the industry for 10 years now, and my worst experiences were with that kind of people. Conservative, unbelieving, not able to adopt new approaches or adjust existing ones. The sad part is that it’s not age-related in any case. I have seen young people being like that. I have seen old people being like that. It seems that it’s more of a lifestyle. I’m happy that they are far away now.
 
-Rails is not the only “simple” framework. There have been many new inspired projects, but it is the most mature simple framework. It’s evolving nicely, staying just behind the bleeding edge of web development and introducing good new features along the way. Rails 5.2 looks nice and I'm happy with the state of things.
+Boring people kill progress because they are afraid that it will kill them in return. It’s hard to not be afraid when your life is in danger.
 
-I’m Ben and I am a proud Rails developer.",
+Please, PLEASE, don’t be one of them!
+
+
+
+
+As a ""weird"" coincidence, those people tend do be describable by this amazing comic by Gudim
+
+
+
+  
+  
+  Bold people do progress
+
+
+By bold I mean those who are aware that the world is always moving forward and that can change with it. By bold I mean those who are excited to try out new things - is it a new piece of technology or just a new way of using something old. By bold I mean people who accept the challenge to fight with instability for the sake of progression. And if they die in the process - it probably was worth it, as others will be able to learn from it.
+
+Again, the book had a bunch of samples of those people as well. These were the people that pioneered the videogame industry by challenging themselves and others, by pushing technology forward, and, what is the most important, by not listening to the boring people. Bold people are the reason why we are still able to enjoy videogames, and it’s the biggest modern media nowadays.
+
+As a software developer, my best experiences were with that kind of people as well. Open-minded, excited, always trying out new approaches and iterating over existing ones to find the best way to move forward. I have seen young people being like that. I have seen old people being like that. It seems that it’s more of a lifestyle. I’m happy that I’m surrounded by that kind of people right now.
+
+Bold people do progress because they know progress will do them better in return. It’s hard to stop as soon as you realize this.
+
+Please, PLEASE, be one of them!",
+ben/what-s-the-state-of-the-software-job-market-o9p,What's the state of the software job market?,Ben Halpern,"Extreme economic slowdown, most organizations hurt, some sectors positively impacted, layoffs and furloughs across many companies.
+
+From your perspective, how severely is the software job market being affected right now? Any predictions on the situation short-term and long-term?",
+risafj/why-i-recommend-harvard-s-cs50x-online-course-to-every-self-taught-developer-4a1m,Why I recommend Harvard's CS50x online course to every self-taught developer,Risa Fujii,"CS50's Introduction to Computer Science is an free online course based on one of the most popular on-campus courses at Harvard University. In this course, you can learn about core computer science concepts, such as:
+
+
+Algorithms - binary search, bubble sort, merge sort etc.
+Data structures - linked lists, hash tables, etc.
+Memory - stack and heap
+
+
+The languages used are C, Python, SQL, plus some others based on what you choose for the final project. There are a myriad of free CS courses available online, but this is the most enjoyable, engaging, and intellectually stimulating one I've found so far.
+
+I wrote ""self-taught developer"" in the title because I figured that those with no formal CS education are less likely to have had a chance to sit down and learn about these topics in depth. But of course, I would recommend it to anyone who wants to do the same.
+
+Here are three points that I love about this course, and two potential cons.
+
+Pros
+
+
+Their philosophy
+The lectures are a joy to watch
+The assignments are creative
+
+
+(Potential) Cons
+
+
+May not be useful for your day-to-day work
+You don't get to see staff-implemented solutions to assignments
+
+
+
+  
+  
+  Pros
+
+
+
+  
+  
+  1. Their philosophy
+
+
+This course is geared towards people of all programming levels. They tell you in the first week:
+
+
+what ultimately matters in this course is not so much where you end up relative to your classmates but where you end up relative to yourself when you began.
+
+
+Just for reference, I have 1 year of professional experience, though none in C or Python. Some of the assignments were still very tough for me, and one week's worth of coursework would take me about 10 hours to complete, depending on the material (As a Ruby dev, the Python stuff was a lot more intuitive than C!).
+
+The course does a great job of being beginner-friendly and challenging at the same time, because the lectures walk you through the content well but the assignments require you to really think and do more research. Also, often they give you a choice of two assignments, depending on whether you're ""more comfortable"" or ""less comfortable"".
+
+
+  
+  
+  2. The lectures are a joy to watch
+
+
+In addition to being informative, Professor David Malan's lectures are well-paced, animated, and creative. Watch any of them, and you'll probably agree (available on Youtube too).
+
+
+  
+  
+  3. The assignments are creative
+
+
+Rather than boring tasks like ""iterate over this array in C"", you get to implement programs like photo filters, spell checkers, voting systems, and Hogwarts student databases, using concepts that you learned along the way.
+
+Another thing I like is their testing system called Check50, which gives you instant feedback when you submit your code. It's gratifying when you finally get all the tests to return a green smiley face :)
+
+Example:
+
+
+
+  
+  
+  (Potential) Cons
+
+
+
+  
+  
+  1. May not be useful for your day-to-day work
+
+
+For better or for worse, this is not a crash course. If you want to learn a specific topic quickly, like React for example, there are better tutorials online (complete digression, but I highly recommend Scrimba for learning front-end languages/frameworks including React).
+
+That being said, I think learning these core concepts of computer science will be beneficial to any developer in some way.
+For example, I'd been using Ruby hashes (dictionaries) for a long time, and I knew that finding a value from a hash by its key was much faster than finding a value from an array. But before I took this course, I didn't understand how hashes were implemented under the hood. Learning about hash tables and actually implementing one allowed me to also understand Ruby hashes better.
+
+
+  
+  
+  2. You don't get to see staff-implemented solutions to assignments
+
+
+As I mentioned, when you submit an assignment online, your code gets tested via a system called Check50. You don't get to see the solution that the staff had in mind or do a side-by-side comparison with yours.
+
+This wasn't always a problem and I understand their reasons, but there was one particular occasion when I wished I could see staff-implemented solutions: when I was writing SQL queries. My queries worked, and passed the Check50 tests, but there was no way to tell if they could've been optimized further. Seeing staff-implemented answers would've helped there.
+
+
+
+
+If this course sounds interesting to you, I highly recommend that you check it out on edX. And if you do decide to take it, best of luck to you.
+
+I'm also still enrolled, about to start the iOS track. Wish me luck!",
